@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hello-world"
+version = "0.1.0"
+description = ""
+authors = ["evos <eugene.osakovich@ingenios.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
